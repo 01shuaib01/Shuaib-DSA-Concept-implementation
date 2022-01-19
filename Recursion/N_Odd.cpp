@@ -9,14 +9,13 @@ int N_Odd(int n)
         return 1;
     }
 
-     N_Odd(n - 1);
+    N_Odd(n - 1);
     if (n % 2 == 0)
         cout << " ";
     else
     {
         cout << n;
     }
-   
 }
 
 int main()
